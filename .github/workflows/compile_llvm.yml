@@ -27,8 +27,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/SkyFaklist/android_kernel_xiaomi_sm8150.git
-  REPO_BRANCH: miui
+  REPO_URL: https://gitlab.com/ubports/porting/community-ports/android11/sony-xperia-10-iv/kernel-sony-murray
+  REPO_BRANCH: halium-11.0
   CONFIG_FILE: .config
   EXTERNAL_URL: https://github.com/SkyFaklist/Unversial_AndroidKernel_Builder.git
   ANYKERNEL_URL: https://github.com/osm0sis/AnyKernel3.git 
@@ -36,7 +36,7 @@ env:
   ARCH: arm64
   SUBARCH: arm64
   DEVICE: cepheus
-  DEVICE_FULL: cepheus_defconfig
+  DEVICE_FULL: gki_defconfig
   USE_CCACHE: 1
   CCACHE_DIR: ~/.ccache
   BUILDER: /workdir/tc-build/install/bin/
