@@ -30,7 +30,7 @@ env:
   UPLOAD_BIN_DIR: true
   UPLOAD_RELEASE: true
   REPO_URL: https://github.com/maxregner2/kernel_sony_murray
-  REPO_BRANCH: t-caf-latest
+  REPO_BRANCH: kys
   COMPER_URL: https://github.com/kdrag0n/proton-clang.git
   CONFIG_FILE: .config
   EXTERNAL_URL: https://github.com/SkyFaklist/Unversial_AndroidKernel_Builder.git
