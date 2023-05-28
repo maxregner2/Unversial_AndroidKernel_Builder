@@ -114,12 +114,6 @@ jobs:
         chmod +x ./compile.sh
         bash ./compile.sh
         ls /workdir/kernel/out/arch/arm64/boot/
-    
-    - name: Pack Kernel
-      working-directory: /workdir
-      run: |
-        cp /workdir/kernel/out/arch/arm64/boot/Image ./anykernel/Image.gz-dtb
-        
         
     - name: Upload Kernel directory
       uses: actions/upload-artifact@main
