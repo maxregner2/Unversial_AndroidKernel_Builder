@@ -29,8 +29,8 @@ on:
 env:
   UPLOAD_BIN_DIR: true
   UPLOAD_RELEASE: true
-  REPO_URL: https://github.com/maxregner2/kernel-xiaomi-mt6765
-  REPO_BRANCH: halium-10.0
+  REPO_URL: https://github.com/maxregner2/kernel_sony_murray2
+  REPO_BRANCH: lineage-20.0
   COMPER_URL: https://github.com/kdrag0n/proton-clang.git
   CONFIG_FILE: .config
   EXTERNAL_URL: https://github.com/SkyFaklist/Unversial_AndroidKernel_Builder.git
@@ -39,7 +39,7 @@ env:
   ARCH: arm64
   SUBARCH: arm64
   DEVICE: xiaomi_dandelion
-  DEVICE_FULL: dandelion_halium_defconfig
+  DEVICE_FULL: pdx225_defconfig.save
   USE_CCACHE: 1
   CCACHE_DIR: ~/.ccache
   BUILDER: /workdir/toolchain/bin/
